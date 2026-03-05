@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "Login button not responding",
+    "description": "Customers report that the login button freezes after clicking.",
+    "customer": "Rahim Uddin",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-02-10"
+  },
+  {
+    "id": 2,
+    "title": "Payment gateway timeout",
+    "description": "The Stripe payment API fails after 30 seconds of inactivity.",
+    "customer": "Ayesha Akter",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2026-02-11"
+  },
+  {
+    "id": 3,
+    "title": "Password reset email not sent",
+    "description": "Users are not receiving password reset emails.",
+    "customer": "Kamal Hossain",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-02-12"
+  },
+  {
+    "id": 4,
+    "title": "Dashboard shows incorrect analytics",
+    "description": "Daily active users graph displays outdated data.",
+    "customer": "Mahmud Hasan",
+    "priority": "High",
+    "status": "Pending",
+    "createdAt": "2026-02-12"
+  },
+  {
+    "id": 5,
+    "title": "Mobile UI overflow issue",
+    "description": "Sidebar overlaps content on small devices.",
+    "customer": "Nusrat Jahan",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2026-02-13"
+  },
+  {
+    "id": 6,
+    "title": "Search results not loading",
+    "description": "Users get an empty screen when searching for products.",
+    "customer": "Shuvo Ahmed",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-02-14"
+  },
+  {
+    "id": 7,
+    "title": "Inventory sync delay",
+    "description": "Inventory updates take more than 5 minutes to sync.",
+    "customer": "Maria Chowdhury",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2026-02-14"
+  },
+  {
+    "id": 8,
+    "title": "File upload size error",
+    "description": "Users cannot upload files above 5 MB even though the limit is 20 MB.",
+    "customer": "Imran Karim",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-02-15"
+  },
+  {
+    "id": 9,
+    "title": "Notifications not showing",
+    "description": "Notification toast does not appear after action success.",
+    "customer": "Sanjida Rahman",
+    "priority": "Low",
+    "status": "Pending",
+    "createdAt": "2026-02-15"
+  },
+  {
+    "id": 10,
+    "title": "API throttle limit reached frequently",
+    "description": "API requests hit rate limit too early during peak hours.",
+    "customer": "Arif Abdullah",
+    "priority": "Critical",
+    "status": "Open",
+    "createdAt": "2026-02-16"
+  },
+  {
+    "id": 11,
+    "title": "User profile image not updating",
+    "description": "Profile avatars remain cached even after upload.",
+    "customer": "Rifat Mia",
+    "priority": "Medium",
+    "status": "In Review",
+    "createdAt": "2026-02-16"
+  },
+  {
+    "id": 12,
+    "title": "Email verification link expired",
+    "description": "Verification tokens expire too quickly for some users.",
+    "customer": "Tahia Noor",
+    "priority": "High",
+    "status": "Resolved",
+    "createdAt": "2026-02-17"
+  }
+]
