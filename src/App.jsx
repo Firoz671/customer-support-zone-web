@@ -2,6 +2,8 @@ import { Suspense } from "react";
 import "./App.css";
 import Navbar from "./component/Navbar";
 import Players from "./component/Players";
+import Footer from "./component/Footer";
+import { ToastContainer } from "react-toastify";
 
 const fetchData = async () => {
   const res = await fetch("/data.json");
@@ -17,10 +19,12 @@ function App() {
         <Navbar></Navbar>
       </header>
       <section className="bg-[#F5F5F5]">
-        <Suspense>
+        <Suspense fallback={<p>loading... </p>}>
           <Players dataPromise={dataPromise}></Players>
         </Suspense>
+        <ToastContainer />
       </section>
+      <Footer></Footer>
     </div>
   );
 }
