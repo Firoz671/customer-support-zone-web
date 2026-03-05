@@ -11,16 +11,16 @@ const ShowPlayers = ({ players, handleClick }) => {
         className="card space-y-3 p-5 shadow-2xl h-full"
       >
         <div className="flex justify-between">
-          <span className="font-bold">{title}</span>
+          <span className="font-bold text-black">{title}</span>
           <span
-            className={`badge ${
+            className={`badge text-black ${
               status == "Open" ? "bg-[#B9F8CF]" : "bg-[#F8F3B9]"
             }`}
           >
             {status}
           </span>
         </div>
-        <p>{description}</p>
+        <p className="text-black">{description}</p>
         <div className="flex justify-between">
           <div className="space-x-3">
             <span>{id}</span>
@@ -33,8 +33,8 @@ const ShowPlayers = ({ players, handleClick }) => {
             </span>
           </div>
           <div className="space-x-3 flex items-center">
-            <span>{customer}</span>
-            <span className="flex items-center">
+            <span className="text-black">{customer}</span>
+            <span className="flex items-center text-black">
               <img className="w-5 h-4" src={"/calendar.svg"} alt="" />{" "}
               {createdAt}
             </span>
